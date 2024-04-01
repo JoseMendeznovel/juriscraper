@@ -5,6 +5,7 @@ Court Short Name: NY
 History:
  2015-10-27  Created by Andrei Chelaru
 """
+
 from datetime import date
 
 from dateutil.rrule import DAILY, rrule

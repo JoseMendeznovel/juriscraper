@@ -7,6 +7,7 @@ Type:
 History:
     2021-12-18: Created by William E. Palin
 """
+
 import re
 from datetime import datetime
 from typing import Any, Dict

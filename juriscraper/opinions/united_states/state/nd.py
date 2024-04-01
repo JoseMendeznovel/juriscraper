@@ -34,9 +34,9 @@ class Site(OpinionSite):
             "name": row.xpath(".//a")[0].text_content().strip(),
             "nature": text_lines[3],
             "judge": text_lines[4],
-            "summary": " ".join(text_lines[5:line_count])
-            if line_count > 5
-            else "",
+            "summary": (
+                " ".join(text_lines[5:line_count]) if line_count > 5 else ""
+            ),
             "url": row.xpath(".//button/@onclick")[0].split("'")[1],
         }
 
