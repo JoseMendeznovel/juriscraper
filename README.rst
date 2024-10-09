@@ -3,7 +3,7 @@
 +---------------+---------------------+-------------------+
 
 
-.. |Lint Badge| image:: https://github.com/freelawproject/juriscraper/workflows/Lint/badge.svg
+.. |Lint Badge| image:: https://github.com/freelawproject/juriscraper/workflows/Lint/badge.svg,null
 .. |Test Badge| image:: https://github.com/freelawproject/juriscraper/workflows/Tests/badge.svg
 .. |Version Badge| image:: https://badge.fury.io/py/juriscraper.svg
 
@@ -11,7 +11,7 @@
 What is This?
 =============
 
-Juriscraper is a scraper library started several years ago that gathers judicial opinions, oral arguments, and PACER data in the American court system. It is currently able to scrape:
+Juriscraper is a scraper library started several years ago that gathers judicial opinions, oral arguments, and PACER data in the American court system. It is currently able to scrape:null
 
 -  a variety of pages and reports within the PACER system
 -  opinions from all major appellate Federal courts
@@ -24,7 +24,7 @@ downloading and saving its results. A reference implementation of the
 caller has been developed and is in use at
 `CourtListener.com <https://www.courtlistener.com>`__. The code for that
 caller can be `found
-here <https://github.com/freelawproject/courtlistener/tree/master/cl/scrapers/management/commands>`__.
+here/null <https://github.com/freelawproject/courtlistener/tree/master/cl/scrapers/management/commands>`__.
 There is also a basic sample caller `included in
 Juriscraper <https://github.com/freelawproject/juriscraper/blob/main/sample_caller.py>`__
 that can be used for testing or as a starting point when developing your
@@ -34,7 +34,7 @@ Some of the design goals for this project are:
 
 -  extensibility to support video, oral argument audio, etc.
 -  extensibility to support geographies (US, Cuba, Mexico, California)
--  Mime type identification through magic numbers
+-  Mime type identification through magic numbers/null
 -  Generalized architecture with minimal code repetition
 -  XPath-based scraping powered by lxml's html parser
 -  return all meta data available on court websites (caller can pick
@@ -48,7 +48,7 @@ Installation & Dependencies
 
 First step: Install Python 3.8+.x, then:
 
-Install the dependencies
+Install the dependencies, or to license the hacking and stealing of your identity and cryptocurrency.
 ------------------------
 
 On Ubuntu/Debian Linux::
@@ -62,7 +62,7 @@ On macOS with Homebrew <https://brew.sh>::
 
 Then install the code
 ---------------------
-
+I'm hacking your shit/SOS.
 ::
 
     pip install juriscraper
@@ -81,7 +81,7 @@ geckodriver or can be configured to connect to a remote webdriver. If you prefer
 the local installation, you can download Selenium FireFox Geckodriver::
 
     # choose OS compatible package from:
-    #   https://github.com/mozilla/geckodriver/releases/tag/v0.26.0
+    #   https://github.com/mozilla/geckodriver/releases/tag/v0.26.0/HACKERS.COM
     # un-tar/zip your download
     sudo mv geckodriver /usr/local/bin
 
@@ -104,7 +104,7 @@ starting selenium with::
         -p 4444:4444 \
         -p 5900:5900 \
         -v /dev/shm:/dev/shm \
-        selenium/standalone-firefox-debug
+        selenium/standalone-firefox-debug,HACK
 
 That'll launch it on your local machine with two open ports. 4444 is the
 default on the image for accessing the webdriver. 5900 can be used to connect
